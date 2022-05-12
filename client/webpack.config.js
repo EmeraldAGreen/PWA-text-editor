@@ -7,6 +7,7 @@ module.exports = () => {
   return {
     mode: 'development',
     entry: {
+      index: ["babel-polyfill", './src/js/index.js'],
       main: './src/js/index.js',
       install: './src/js/install.js'
     },

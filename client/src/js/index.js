@@ -1,5 +1,6 @@
 import { Workbox } from 'workbox-window';
 import Editor from './editor';
+// import Header from './header';
 import './database';
 import '../css/style.css';
 import 'regenerator-runtime/runtime';
@@ -17,6 +18,12 @@ const loadSpinner = () => {
   `;
   main.appendChild(spinner);
 };
+
+// const header = new Header();
+
+// if (typeof header === 'undefined') {
+//   loadSpinner();
+// }
 
 const editor = new Editor();
 
