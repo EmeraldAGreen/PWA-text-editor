@@ -22,12 +22,12 @@ module.exports = () => {
         title: 'Webpack Plugin',
       }),
       new InjectManifest({
-        swSrc: './src/sw.js',
+        swSrc: './src/src-sw.js',
         swDest: 'service-worker.js',
       }),
       new WebpackPwaManifest({
-        // fingerprints: false,
-        // inject: true,
+        fingerprints: false,
+        inject: true,
         // background_color: '#225ca3',
         // theme_color: '#225ca3',
         start_url: './',

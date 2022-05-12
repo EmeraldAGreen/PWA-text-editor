@@ -26,12 +26,13 @@ export const putDb = async (content) => {
 
   const result = await request;
   
-  console.log('🚀 - data saved to the database', result);}
+  console.log('🚀 - data saved to the database', result);
+}
 
   console.error('putDb not implemented');
 
 // TODO: Add logic for a method that gets all the content from the database
-export const getOneDb = async (id) => {
+export const getOneDb = async () => {
   console.log('GET from the database');
 
   const jateDb = await openDB('jate', 1);
@@ -40,7 +41,7 @@ export const getOneDb = async (id) => {
 
   const store = tx.objectStore('jate');
 
-  const request = store.get(id);
+  const request = store.get(1);
 
   const result = await request;
 
