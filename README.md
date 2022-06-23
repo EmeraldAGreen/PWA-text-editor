@@ -4,7 +4,7 @@
 # JATE: PWA Text Editor
 
 ## Description
-This project is a text editor that runs in the browsert and meets the PWA criteria. 
+This project is a text editor that runs in the browser and meets the PWA criteria. 
 
 ## Table of Contents
 * [Installation](#installation)
