@@ -1,10 +1,10 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# JATE: PWA Text Editor
+# JATE: Just Another Text Editor
 
 ## Description
-This project is a text editor that runs in the browser and meets the PWA criteria. 
+This project is a text editor that runs in the browser and meets the progressive web app (PWA) criteria. 
 
 ## Table of Contents
 * [Installation](#installation)
